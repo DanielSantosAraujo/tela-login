@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(243, 145, 18);
+}
+
+.card {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 70vh;
+    width: 80vw;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.esquerda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 35vw;
+    height: 70vh;
+    /* background-color: pink; */
+    gap: 30px;
+}
+
+.inputFacebook {
+    background-color: #3827ce;
+    font-size: 20px;
+    height: 70px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+}
+
+.inputTwitter {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: #27cec0;
+    font-size: 20px;
+    gap: 30px;
+    height: 70px;
+    width: 300px;
+}
+
+.inputGoogle {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: #ff0000;
+    font-size: 20px;
+    height: 70px;
+    width: 300px;
+    gap: 20px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.meio_login {
+    width: 10vw;
+    height: 70vh;
+    /* background-color: red; */
+    /* border: 10px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.meio_login .meio_cima, .meio_baixo {
+    /* width: 1px; */
+    height: 100px;
+    border: 1px solid rgba(128, 123, 123, 0.459);
+}
+
+.meio_login .meio_meio {
+    border: 1px solid gray;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+}
+
+
+
+.direita {
+    width: 35vw;
+    height: 70vh;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.direita .topo{
+    height: 20%;
+    margin-top: 20px;
+    color: gray;
+}
+
+.direita .meio{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: 30%;
+
+}
+
+.direita .meio input{
+    height: 60px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: rgb(238, 235, 235);
+    padding-left: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.fim {
+    display: flex;
+    flex-direction: column;
+}
+
+.fim_baixo {
+    display: flex;
+    gap: 20px;
+}
+
+.fim_cima{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.fim_baixo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.check{
+    display: flex;
+    gap: 5px;
+    color: gray;
+}
+
+.login {
+    background-color: red;
+    height:50px;
+    width: 120px;
+}
+
+.registro {
+    color: red;
+    font-weight: bold;
+}
+
+.password {
+    color: gray;
+}
+
+.barra {
+    color: gray;
+}
+
+.remember {
+    font-weight: bold;
+}
